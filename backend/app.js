@@ -14,7 +14,7 @@ const mongoose =require('mongoose');
 const path = require("path");
 
 
-let URL="mongodb://localhost:27017/ecom4"
+let URL="mongodb+srv://ecomuser:ecomuser@equation.o7aka.mongodb.net/final"
 //let option={user:'',pass:"",autoIndex:true};
 mongoose.connect(URL).then((res)=>{
     console.log("Database Connected")
